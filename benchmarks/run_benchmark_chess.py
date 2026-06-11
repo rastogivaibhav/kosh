@@ -1,9 +1,9 @@
 import os
 import time
 from pprint import pprint
-from app.kosh.kernel import MemoryKernel
-from app.kosh.adapters.native_ingestor import NativeIngestor
-from app.kosh.reasoning import LyapunovCritic
+from kosh.kernel import MemoryKernel
+from kosh.adapters.native_ingestor import NativeIngestor
+from kosh.reasoning import LyapunovCritic
 
 # Setup isolated benchmark graph
 DB_PATH = os.path.join(os.path.dirname(__file__), "benchmark_chess.pgdb")

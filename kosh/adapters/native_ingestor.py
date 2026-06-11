@@ -18,7 +18,7 @@ Uses the kosh.linguistics DocumentExtractor to:
 import os
 import glob
 
-from app.kosh.linguistics import DocumentExtractor
+from kosh.linguistics import DocumentExtractor
 
 
 class NativeIngestor:
